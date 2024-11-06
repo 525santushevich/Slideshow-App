@@ -6,7 +6,7 @@ const mWaitTime = 5000; // Timer interval in milliseconds
 $(document).ready(() => {
   $(".details").hide(); // Hide details initially
 
-  // Call a function here to start the timer for the slideshow
+  // Call a function here to start the timer for tshe slideshow
 
   // Select the moreIndicator button and add a click event to:
   // - toggle the rotation classes (rot90 and rot270)

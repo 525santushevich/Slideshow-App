@@ -1,82 +1,65 @@
 {
     "images": [
         {
-            "imgPath": "img/places/australia.jpg",
-            "imgLocation": "Australia",
-            "description": "Loch Ard Gorge",
+            "imgPath": "img/places/usa.jpg",
+            "imgLocation": "United States",
+            "description": "Cookie, peas, fruit cup, mashed potatoes, popcorn chicken with ketchup",
             "date": "01/01/2016"
         },
         {
             "imgPath": "img/places/austria.jpg",
-            "imgLocation": "Austria",
-            "description": "Austrian chapel",
+            "imgLocation": "Brazil",
+            "description": "Bread, salad, plantains, chicken pepper stuff, yellow rice and beans",
             "date": "01/02/2016"
         },
         {
             "imgPath": "img/places/france.jpg",
-            "imgLocation": "Paris",
-            "description": "Eiffel Tower",
+            "imgLocation": "Finland",
+            "description": "Crepe with fruits, soup, beets, sweet potatoes, bread",
             "date": "01/03/2016"
         },
         {
             "imgPath": "img/places/greece.jpg",
-            "imgLocation": "Greece",
-            "description": "Greek coastline",
+            "imgLocation": "France",
+            "description": "Kiwi, carrots, some sort of meat, green beans, cheese and apples",
             "date": "01/04/2016"
         },
         {
             "imgPath": "img/places/hungary.jpg",
-            "imgLocation": "Hungary",
-            "description": "Budapest skyline",
+            "imgLocation": "Greece",
+            "description": "Yogurt with pomegranate, tomatoes and cucumbers, leaf wrapped things, lemons, rice with chicken",
             "date": "01/05/2016"
         },
         {
             "imgPath": "img/places/india.jpg",
-            "imgLocation": "India",
-            "description": "Taj Mahal",
+            "imgLocation": "Italy",
+            "description": "Grapes, salad, bread, penne vodka, leaves with fish I think",
             "date": "01/06/2016"
         },
         {
             "imgPath": "img/places/italy.jpg",
-            "imgLocation": "Italy",
-            "description": "Venice",
+            "imgLocation": "South Korea",
+            "description": "Broccoli, peppers, questioning soup, kimchi, rice with stuff",
             "date": "01/07/2016"
         },
         {
             "imgPath": "img/places/japan.jpg",
-            "imgLocation": "Japan",
-            "description": "Hirosaki Castle",
+            "imgLocation": "Spain",
+            "description": "Lemon, some ugly salad stuff, tomato soup, bread, rice with shrimp",
             "date": "01/08/2016"
         },
         {
             "imgPath": "img/places/korea.jpg",
-            "imgLocation": "South Korea",
-            "description": "Seoul",
+            "imgLocation": "Ukraine",
+            "description": "Rice with sausage, cranberry pudding I think, crepe, cabbage",
             "date": "01/09/2016"
         },
         {
             "imgPath": "img/places/norway.jpg",
-            "imgLocation": "Norway",
-            "description": "Countryside mountains",
+            "imgLocation": "United Kingdom",
+            "description": "Cabbage, rice with peas, yogurt parfait, brussel sprouts, cutlets of some sort",
             "date": "01/10/2016"
-        },
-        {
-            "imgPath": "img/places/switzerland.jpg",
-            "imgLocation": "Switzerland",
-            "description": "Lake castle",
-            "date": "01/11/2016"
-        },
-        {
-            "imgPath": "img/places/thailand.jpg",
-            "imgLocation": "Thailand",
-            "description": "Beachline",
-            "date": "01/12/2016"
-        },
-        {
-            "imgPath": "img/places/turkey.jpg",
-            "imgLocation": "Turkey",
-            "description": "Istanbul",
-            "date": "01/13/2016"
         }
-  ]
+    ]
 }
+        

@@ -6,7 +6,7 @@ const mWaitTime = 5000; // Timer interval in milliseconds
 $(document).ready(() => {
   $(".details").hide(); // Hide details initially
 
-  // Call a function here to start the timer for tshe slideshow
+  // Call a function here to start the timer for the slideshow
 
   // Select the moreIndicator button and add a click event to:
   // - toggle the rotation classes (rot90 and rot270)
@@ -17,8 +17,13 @@ $(document).ready(() => {
   // Select the "Previous Photo" button and add a click event to call showPrevPhoto
 
   // Call fetchJSON() to load the initial set of images
-  fetchJSON();
-});
+  
+  function fetchJSON() {
+    $.ajax({
+      url: mUrl,
+      dataType: "json",
+  }
+  
 
 // Function to fetch JSON data and store it in mImages
 function fetchJSON() {

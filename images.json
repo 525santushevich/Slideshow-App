@@ -1,54 +1,54 @@
 {
     "images": [
         {
-            "imgPath": "img/places/usa.jpg",
+            "imgPath": "/img/places/usa.jpg",
             "imgLocation": "United States",
-            "description": "Cookie, peas, fruit cup, mashed potatoes, popcorn chicken with ketchup",
+            "description": "Cookie, peas, fruit cup, mashed potatoes, popcorn chicken with ketchup"
         },
         {
             "imgPath": "img/places/brazil.jpg",
             "imgLocation": "Brazil",
-            "description": "Bread, salad, plantains, chicken pepper stuff, yellow rice and beans",
+            "description": "Bread, salad, plantains, chicken pepper stuff, yellow rice and beans"
         },
         {
             "imgPath": "img/places/finland.jpg",
             "imgLocation": "Finland",
-            "description": "Crepe with fruits, soup, beets, sweet potatoes, bread",
+            "description": "Crepe with fruits, soup, beets, sweet potatoes, bread"
         },
         {
             "imgPath": "img/places/france.jpg",
             "imgLocation": "France",
-            "description": "Kiwi, carrots, some sort of meat, green beans, cheese and apples",
+            "description": "Kiwi, carrots, some sort of meat, green beans, cheese and apples"
         },
         {
             "imgPath": "img/places/greece.jpg",
             "imgLocation": "Greece",
-            "description": "Yogurt with pomegranate, tomatoes and cucumbers, leaf wrapped things, lemons, rice with chicken",
+            "description": "Yogurt with pomegranate, tomatoes and cucumbers, leaf wrapped things, lemons, rice with chicken"
         },
         {
             "imgPath": "img/places/italy.jpg",
             "imgLocation": "Italy",
-            "description": "Grapes, salad, bread, penne vodka, leaves with fish I think",
+            "description": "Grapes, salad, bread, penne vodka, leaves with fish I think"
         },
         {
             "imgPath": "img/places/south-korea.jpg",
             "imgLocation": "South Korea",
-            "description": "Broccoli, peppers, questioning soup, kimchi, rice with stuff",
+            "description": "Broccoli, peppers, questioning soup, kimchi, rice with stuff"
         },
         {
             "imgPath": "img/places/spain.jpg",
             "imgLocation": "Spain",
-            "description": "Lemon, some ugly salad stuff, tomato soup, bread, rice with shrimp",
+            "description": "Lemon, some ugly salad stuff, tomato soup, bread, rice with shrimp"
         },
         {
             "imgPath": "img/places/ukraine.jpg",
             "imgLocation": "Ukraine",
-            "description": "Rice with sausage, cranberry pudding I think, crepe, cabbage",
+            "description": "Rice with sausage, cranberry pudding I think, crepe, cabbage"
         },
         {
             "imgPath": "img/places/uk.jpg",
             "imgLocation": "United Kingdom",
-            "description": "Cabbage, rice with peas, yogurt parfait, brussel sprouts, cutlets of some sort",
+            "description": "Cabbage, rice with peas, yogurt parfait, brussel sprouts, cutlets of some sort"
         }
     ]
 }

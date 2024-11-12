@@ -20,9 +20,16 @@ $(document).ready(() => {
   
   function fetchJSON() {
     $.ajax({
+      type: "GET",
       url: mUrl,
       dataType: "json",
-  }
+      success: function (data) {
+        const image = data.images
+        image.forEach(element => {
+          mImages.push(element)
+        });
+      }
+  })
   
 
 // Function to fetch JSON data and store it in mImages

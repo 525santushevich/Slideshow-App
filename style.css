@@ -1,7 +1,7 @@
 body {
   overflow-x: hidden;
   font-family: "Century Gothic", sans-serif;
-  background-image: url("../img/geometry.jpg");
+  background-image: url("/img/background.jpg");
   background-size: cover;
   background-attachment: fixed;
 }
@@ -35,8 +35,8 @@ body {
 /* Style for the title/banner */
 .banner {
   font-size: 2rem; /* Increased font size for better readability */
-  font-weight: bold;
-  color: #333;
+  color: #490033;
+  font-family: "Bungee", sans-serif;
   /* Optional: Customize the text color */
 }
 

@@ -7,7 +7,7 @@ $(document).ready(() => {
   $(".details").hide(); // Hide details initially
 
   // Call a function here to start the timer for the slideshow
-
+  startTimer()
   // Select the moreIndicator button and add a click event to:
   // - toggle the rotation classes (rot90 and rot270)
   // - slideToggle the visibility of the .details section
@@ -17,9 +17,8 @@ $(document).ready(() => {
   // Select the "Previous Photo" button and add a click event to call showPrevPhoto
 
   // Call fetchJSON() to load the initial set of images
-  
-  function fetchJSON() {
-    $.ajax({
+  fetchJSON() {
+   $.ajax({
       type: "GET",
       url: mUrl,
       dataType: "json",
@@ -29,8 +28,8 @@ $(document).ready(() => {
           mImages.push(element)
         });
       }
-  })
-  
+    })
+  };
 
 // Function to fetch JSON data and store it in mImages
 function fetchJSON() {

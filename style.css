@@ -4,6 +4,11 @@ body {
   background-image: url("/img/background.jpg");
   background-size: cover;
   background-attachment: fixed;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  margin: 0;
 }
 
 /* Main container for the slideshow and metadata */
@@ -12,9 +17,9 @@ body {
   max-width: 500px; /* Increased max-width for larger display */
   width: 90%; /* Keeps width responsive */
   margin: auto;
-  background-color: rgba(255, 255, 255, 0.9);
+  background-color: rgb(230, 182, 215);
   border-radius: 8px;
-  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2); /* Optional: Add shadow */
+  box-shadow: 2px 2px 2px rgb(255, 255, 255); /* Optional: Add shadow */
 }
 
 /* Holds the displayed photo */
@@ -29,7 +34,7 @@ body {
   max-width: 100%;
   height: auto;
   border-radius: 4px;
-  /* Optional: Add shadow here */
+  box-shadow: 2px 2px 2px rgba(255, 255, 255, 0.425);
 }
 
 /* Style for the title/banner */

@@ -1,7 +1,7 @@
 {
     "images": [
         {
-            "imgPath": "/img/places/usa.jpg",
+            "imgPath": "img/places/usa.jpg",
             "imgLocation": "United States",
             "description": "Cookie, peas, fruit cup, mashed potatoes, popcorn chicken with ketchup"
         },

@@ -14,7 +14,7 @@ body {
 /* Main container for the slideshow and metadata */
 #photoBooth {
   padding: 25px; /* Increased padding for better spacing */
-  max-width: 500px; /* Increased max-width for larger display */
+  max-width: 900px; /* Increased max-width for larger display */
   width: 90%; /* Keeps width responsive */
   margin: auto;
   background-color: rgb(230, 182, 215);
@@ -34,12 +34,12 @@ body {
   max-width: 100%;
   height: auto;
   border-radius: 4px;
-  box-shadow: 2px 2px 2px rgba(255, 255, 255, 0.425);
+  box-shadow: 3px 3px 3px rgba(255, 255, 255, 0.425);
 }
 
 /* Style for the title/banner */
 .banner {
-  font-size: 2rem; /* Increased font size for better readability */
+  font-size: 3rem; /* Increased font size for better readability */
   color: #490033;
   font-family: "Bungee", sans-serif;
   /* Optional: Customize the text color */
@@ -66,9 +66,9 @@ body {
 .details {
   border: 1px dashed #000;
   padding: 15px;
-  background-color: #f8f9fa; /* Light background to distinguish from main area */
+  background-color: #fddaf6e1; /* Light background to distinguish from main area */
   border-radius: 4px;
-  color: #333;
+  color: #490033;
   font-size: 1rem; /* Slightly larger text for readability */
 }
 
@@ -81,16 +81,35 @@ body {
 Make it animate nicely. You'll need CSS3 for this */
 .rot90 {
   /* Add 90-degree rotation */
+  transform: rotate(90deg);
 }
 
 /* Add CSS styles to rotate the element 180deg
 Make it animate nicely. You'll need CSS3 for this */
 .rot180 {
-  /* Add 180-degree rotation */
+  transform: rotate(180deg);
 }
 
 /* Add CSS styles to rotate the element 270deg
 Make it animate nicely. You'll need CSS3 for this */
 .rot270 {
   /* Add 270-degree rotation */
+  transform: rotate(270deg);
+}
+
+/* More Styling */
+.p {
+  font-family: "Sour Gummy", sans-serif;
+  font-size: 1.8rem;
+  color: #490033;
+}
+
+.name {
+  font-family: "Roboto Condensed", sans-serif;
+  font-size: 1.5rem;
+}
+
+.description {
+  font-family: "Roboto Condensed", sans-serif;
+  font-size: 1.5rem;
 }

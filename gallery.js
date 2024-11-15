@@ -1,16 +1,21 @@
 let mCurrentIndex = 0; // Tracks the current image index
 let mImages = []; // Array to hold GalleryImage objects
 const mUrl = "images.json"; // Replace with actual JSON URL
-const mWaitTime = 5000; // Timer interval in milliseconds
+const mWaitTime = 8000; // Timer interval in milliseconds
 
 $(document).ready(() => {
   $(".details").hide(); // Hide details initially
+  $(".details").slideToggle();
 
   // Call a function here to start the timer for the slideshow
   startTimer();
   // Select the moreIndicator button and add a click event to:
-  // - toggle the rotation classes (rot90 and rot270)
-  // - slideToggle the visibility of the .details section
+  $(".moreIndicator").on("click", function () {
+    // - toggle the rotation classes (rot90 and rot270)
+    $("moreIndicator").toggleClass("rot90 rot270");
+    // - slideToggle the visibility of the .details section
+    $(".details").slideToggle();
+  });
 
   // Select the "Next Photo" button and add a click event to call showNextPhoto
   $("#nextPhoto").on("click", function () {
@@ -46,8 +51,8 @@ function swapPhoto() {
   let currentImg = mImages[mCurrentIndex];
   $("#photo").attr("src", currentImg.imgPath);
   // Update the .location, .description, and .date elements with the current image's details
-  $(".name").text(`Name: ${currentImg.name}`);
-  $(".description").text(`Description: ${currentImg.description}`);
+  $(".name").text(`${currentImg.imgLocation}`);
+  $(".description").text(`${currentImg.description}`);
 }
 
 // Advances to the next photo, loops to the first photo if the end of array is reached
@@ -73,4 +78,5 @@ function startTimer() {
   // Create a timer to automatically call `showNextPhoto()` every mWaitTime milliseconds
   // Consider using setInterval to achieve this functionality
   // Hint: Make sure only one timer runs at a time
+  setInterval(() => showNextPhoto(), mWaitTime);
 }
